@@ -1,0 +1,7 @@
+{
+  "name": "NovaShop - Mobile E-Commerce & Business Platform",
+  "description": "Mobile-first Android-style e-commerce platform with real-time order tracking, AI shopping assistant, multi-channel support, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

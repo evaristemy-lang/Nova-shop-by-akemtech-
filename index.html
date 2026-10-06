@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+  <head>
+    <script>
+      window.$RefreshReg$ = window.$RefreshReg$ || function() {};
+      window.$RefreshSig$ = window.$RefreshSig$ || function() { return function(type) { return type; }; };
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%232563eb'/><text x='50' y='68' font-size='55' font-weight='900' text-anchor='middle' fill='white'>N</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#020617" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>NovaShop - Mobile E-Commerce & Business Platform</title>
+    <meta name="description" content="Mobile-first Android-style e-commerce platform with real-time order tracking, AI shopping assistant, multi-channel support, and admin dashboard." />
+    <meta property="og:title" content="NovaShop - Mobile E-Commerce & Business Platform" />
+    <meta property="og:description" content="Mobile-first Android-style e-commerce platform with real-time order tracking, AI shopping assistant, multi-channel support, and admin dashboard." />
+    <meta property="og:type" content="website" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-600 selection:text-white overflow-x-hidden min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
